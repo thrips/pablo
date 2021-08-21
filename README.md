@@ -1,9 +1,4 @@
 # pablo
 *Starring Tobey Maguire*
 
-Hello There!
-
-
-
-
-general kenobi
+NoW with SSH
