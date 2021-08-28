@@ -1,1 +1,27 @@
-<h1> Tobey Maguire is the Best Spiderman </h1>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>PIXI test</title>
+    <script>
+        (function (d) {
+            window.WebFontConfig = {
+                google: {
+                    families: ['VT323'],
+                },
+            };
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+    <script src="js/pixi.min.js"></script>
+
+</head>
+
+<body>
+    <script type="module" src="js/app2.js"></script>
+</body>
+
+</html>
